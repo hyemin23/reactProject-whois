@@ -7,6 +7,8 @@ import { SettingFilled } from '@ant-design/icons';
  * @param {object} param
  * @param {()=> void } param.logout
  */
+
+//Setting 창
 export default function Settings({ logout }) {
     return (
         <Dropdown overlay={
